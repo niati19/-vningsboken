@@ -1,11 +1,7 @@
-print("HEEEEEEEEJ")
-print("print")
+svar = input("Vad är radien? ")
+r = float (svar)
+V = 4*3.14*r*r*r/3
+print("Volymen är (cm³):", V)
 
-name = input("Vad heter du? ")
-print(f"{name}, det var inte så fint namn")
-
-age = input("Hur gammal är du? ")
-print(f"{age} är väldigt dåligt nummer!")
-
-sure = input(f"Är du säker att du är {age}? ")
-print ("Tråkigt för dig")
+A = 4*3.14*r*r
+print("Arean är (cm²):", A)
