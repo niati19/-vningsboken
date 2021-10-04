@@ -12,4 +12,3 @@ while svar != "cringe":
     elif svar == "3":
         print("Du suger hej då")
         exit()
-    elif svar == "4"
